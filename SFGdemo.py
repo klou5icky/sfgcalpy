@@ -61,6 +61,6 @@ exprla=[expr0a,expr1a,expr2a,expr3a]
 exprls=[expr0s,expr1s,expr2s,expr3s]
 xliml=[[0,90]]
 plist=['ssp','sps','pss','ppp']
-overlapexpr(xl, exprla, xliml, title=r'$CH_{3}-as$', labels=plist, xlabel=r'$\theta$', ylabel=r'$d^{2}R(\theta)$')
-overlapexpr(xl, exprls, xliml, title=r'$CH_{3}-ss$', labels=plist, xlabel=r'$\theta$', ylabel=r'$d^{2}R(\theta)$')
+overlapexpr(xl, exprla, xliml, title=r'$\mathrm{CH}_{3}-\mathrm{as}$', labels=plist, xlabel=r'$\theta\/(degree)$', ylabel=r'$d^{2}R(\theta)\/(\beta_{\mathrm{aca}}^{2})$')
+overlapexpr(xl, exprls, xliml, title=r'$\mathrm{CH}_{3}-\mathrm{ss}$', labels=plist, xlabel=r'$\theta\/(degree)$', ylabel=r'$d^{2}R(\theta)\/(\beta_{\mathrm{ccc}}^{2})$')
 plt.show()
